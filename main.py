@@ -81,7 +81,6 @@ def astar(initial_state):
     """
     # Find the nearest goal state to the initial state
     goal_state = find_nearest_goal_state(initial_state)
-    #     print(goal_state)
 
     # Initialize the visited set and the priority queue
     visited = []
